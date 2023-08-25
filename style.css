@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --sky-green:#49D6B7;
+  --d-blue:#072849;
+  --gray-f:background: rgba(85, 85, 85, 1);
+  --blue-f:rgba(22, 45, 99, 0.85)
+
+}
+.umr-container{
+  width: 100%;
+  max-width: 1480px;
+  margin: auto;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Roboto', sans-serif;
+}
+
+.umr-header{
+  background-image: url(./banner-background.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.umr-header h1{
+  font-size: 70px;
+  padding: 450px 0px 400px 0px;
+}
+
+.Einführung{
+  text-align: center;
+}
+.Einführung h4{
+  color: var(--d-blue);
+  font-size: 20px;
+  border-bottom: 1px solid var(--sky-green);
+  width: 100%;
+  max-width: 122px;
+  margin: auto;
+}
+.Einführung h2{
+  color: var(--blue-f);
+  width: 100%;
+  max-width: 913px;
+  font-size: 37px;
+  margin: auto;
+  padding: 20px 0px;
+}
+.Einführung p{
+  color: var(--gray-f);
+  font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 780px) {
+  .umr-header h1{
+    font-size: 25px;
+    padding: 100px 10px 250px 10px;
+  }
+  .Einführung h2{
+    font-size: 22px;
+    padding: 20px 10px;
+  }
+  .Einführung p{
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+}
