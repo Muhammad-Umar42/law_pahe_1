@@ -232,8 +232,8 @@ text-align: center;
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 355px) {
   .umr-header h1{
-    font-size: 16px;
+    font-size: 20px;
   }
 }
