@@ -90,7 +90,6 @@ h1,h2,h3,h4,h5{
 }
 .S-img img{
   width: 100%;
-  max-width: 380px;
   border-radius: 30px
 }
 .why-spn{
@@ -107,6 +106,9 @@ h1,h2,h3,h4,h5{
     padding: 4px;
     border-radius: 50px;
     margin: 3px 7px 0 0;
+}
+.reverse{
+  align-items: center;
 }
 .bullet{
   width: 100px;
