@@ -21,15 +21,39 @@ h1,h2,h3,h4,h5{
   font-family: 'Roboto', sans-serif;
 }
 
+.logoHL{
+  width: 100%;
+    max-width: 400px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.banner{
+  align-items: center;
+}
+.banr-txt{
+  text-align: left;
+}
+.banr{
+  padding-bottom: 200px;
+}
+.res img{
+  border-radius: 30px;
+}
+.banr button{
+  background-color: var(--sky-green);
+  color: white;
+  padding: 6px 12px;
+  margin-top: 28px;
+}
+
 .umr-header{
-  background-image: url(./banner-background.png);
-  background-position: center;
-  background-size: cover;
+  background-color: rgb(117, 116, 116);
   text-align: center;
+  margin-bottom: 20px;
 }
 .umr-header h1{
-  font-size: 70px;
-  padding: 450px 0px 400px 0px;
+  font-size: 55px;
+  padding: 250px 0px 20px 0px;
 }
 
 .Einführung{
@@ -63,6 +87,11 @@ h1,h2,h3,h4,h5{
   font-size: 40px;
   font-weight: var(--bold-font);
 }
+.S-img img{
+  width: 100%;
+  max-width: 380px;
+  border-radius: 30px
+}
 .why-spn{
   color: var(--sky-green);
 }
@@ -70,6 +99,13 @@ h1,h2,h3,h4,h5{
   max-width: 600px;
   color: var(--gray-f);
   padding: 20px 0px;
+}
+.tick{
+  background: #49D6B7;
+    max-width: 28px;
+    padding: 4px;
+    border-radius: 50px;
+    margin: 3px 7px 0 0;
 }
 .bullet{
   width: 100px;
@@ -141,9 +177,10 @@ text-align: center;
 .cta button{
   background-color: var(--sky-green);
   color: white;
-  padding: 4px 8px;
+  padding: 6px 12px;
   margin-top: 28px;
 }
+
 .footer{
   color: white;
   padding-bottom: 50px;
@@ -186,7 +223,13 @@ text-align: center;
 @media screen and (max-width: 820px) {
   .umr-header h1{
     font-size: 25px;
-    padding: 100px 10px 250px 10px;
+    padding: 100px 10px 15px 10px;
+  }
+  .res{
+    padding-bottom: 50px;
+  }
+  .banr{
+    padding-bottom: 50px;
   }
   .Einführung h2{
     font-size: 22px;
@@ -232,9 +275,17 @@ text-align: center;
 }
 
 
+@media screen and (max-width: 1540px) {
+  .umr-header h1{
+    font-size: 28px;
+  }
+}
 @media screen and (max-width: 400px) {
   .umr-header h1{
     font-size: 20px;
+  }
+  .banr button{
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 320px) {
